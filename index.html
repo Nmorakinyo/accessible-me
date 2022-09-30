@@ -13,32 +13,44 @@
 </head>
 
 <body>
-
-
-  <div class="container">
-    <div class="site-header">
+  
+    <header role="banner" class="site-header">
       <h1>Jam Box Studios</h1>
+    
 
-      <div class="main-nav">
+      <nav class="main-nav" role="navigation">
         <ul>
           <li><a href="#">Home</a></li>
           <li><a href="#">Products</a></li>
           <li><a href="#">Reservation</a></li>
           <li><a href="#">Studio</a></li>
         </ul>
-      </div>
-      <ul>
-        <li><a href="#main-content">Main Section</a></li>
-        <li><a href="#contact-section">Contact Us</a></li>
-      </ul>
+      </nav>
+      
+      <!--skip links code-->
+    <h3> Go directly to:</h3>
+
+<nav class="skip-nav" role="navigation">
+  <ul>
+    <li><a href="#main-content">Main Section</a></li>
+    <li><a href="#contact-section">Contact Us</a></li>
+  </ul>
+</nav>
+
       <img src="https://placekitten.com/1200/900" class="banner" alt="Picture of Black Kitten">
-    </div>
-    <div id="main-content">
+
+    </header>
+
+    
+
+    <main id="main-content">
 
       <h1>Welcome to Jam Box</h1>
       <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Temporibus laboriosam praesentium nostrum ipsa eveniet, officia deserunt cumque eius esse enim, ipsam accusantium autem nihil quaerat sequi perferendis optio quia veritatis.</p>
-      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam perferendis expedita sed itaque odit ipsam omnis, eos voluptates magni fugit culpa voluptatibus, inventore eaque, eligendi voluptatum! Voluptate iusto error voluptatibus.</p>
-           <div class="owner">
+      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam perferendis expedita sed itaque odit ipsam omnis, eos voluptates
+         magni fugit culpa voluptatibus, inventore eaque, eligendi voluptatum! Voluptate iusto error voluptatibus.</p>
+
+           <section class="owner">
         <h1>Meet the owner</h1>
         <ul>
           <li>Name: John Doe</li>
@@ -46,15 +58,16 @@
           <li>Email: johnjoe@jambox.ca</li>
           <li>Phone: 613-000-0000</li>
         </ul>
-        <h1">Address</h1>
+        <h1>Address</h1>
         <p>
           Jambox Studios
           123 Guitar Road,
           Musicville, Danceistan
           B3T 0L0
         </p>
-      </div>
-      <div id="contact-section">
+           </section>
+
+      <section id="contact-section">
         <h1>Contact Us</h1>
         <form action="thanks.html">
           <label>Full Name</label>
@@ -65,12 +78,14 @@
           <textarea></textarea>
           <button type="submit">Send</button>
         </form>
-      </div>
-    </div>
-    <div class="site-footer">
+      </section>
+
+    </main>
+
+    <footer class="site-footer">
       &copy; 2021 Jam Box Studios
-    </div>
-  </div>
+    </footer>
+  
 </body>
 
 </html>
